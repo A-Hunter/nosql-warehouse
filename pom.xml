@@ -6,7 +6,7 @@
 
     <groupId>com.netero.way</groupId>
     <artifactId>nosql-warehouse</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <name>HXH</name>
 
@@ -14,7 +14,6 @@
         <module>hxh-ui</module>
         <module>hxh-services</module>
         <module>hxh-persistence</module>
-        <module>hxh-persistence-facade</module>
         <module>hxh-interfaces</module>
         <module>package/hxh-parent</module>
     </modules>
