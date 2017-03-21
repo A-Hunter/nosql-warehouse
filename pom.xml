@@ -16,6 +16,7 @@
         <module>hxh-persistence</module>
         <module>hxh-interfaces</module>
         <module>package/hxh-parent</module>
+        <module>kar/hxh-kar</module>
     </modules>
 
 </project>

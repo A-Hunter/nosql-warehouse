@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name='hxh-kar-1.0'>
+
+    <repository>mvn:org.apache.camel.karaf/apache-camel/2.18.0/xml/features</repository>
+    <repository>mvn:org.apache.cxf.karaf/apache-cxf/LATEST/xml/features</repository>
+
+    <feature name='hxh-kar' version='1.0'>
+        <feature version="4.0.7">war</feature>
+        <feature version="3.2.0.SNAPSHOT">cxf-jaxws</feature>
+        <feature version="4.0.7">blueprint-web</feature>
+        <feature version="3.2.0.SNAPSHOT">cxf-jaxrs</feature>
+        <feature version="3.2.0.SNAPSHOT">cxf-http</feature>
+
+        <bundle start-level="85">mvn:com.netero.way.hxh.services/hxh-services/1.0</bundle>
+        <bundle start-level="85">mvn:com.netero.way.hxh.interfaces/hxh-interfaces/1.0</bundle>
+        <bundle start-level="85">mvn:com.netero.way.hxh.persistence/hxh-persistence/1.0</bundle>
+        <bundle start-level="85">mvn:com.netero.way.hxh.ui/hxh-ui/1.0</bundle>
+
+    </feature>
+</features>
