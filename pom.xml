@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.netero.way</groupId>
-    <artifactId>nosql-warehouse</artifactId>
+    <artifactId>osgi-example</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
     <name>HXH</name>
